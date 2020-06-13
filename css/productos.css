@@ -1,0 +1,351 @@
+h2 span{font-family: 'Playfair Display SC', serif;}
+h2 {font-family: 'Playfair Display SC', serif}
+
+#productos-section{
+	background-position: center center;
+	background-size: 100%;
+	height: 100vh;
+	padding: 50px;
+}
+
+#main-container .bg-productos{
+	background-image: url(../img/bg-productos.png) !important;
+}
+
+#main-container .bg-donas{
+	background-image: url(../img/bg-donas.jpg) !important;
+}
+
+#main-container .bg-fondo{
+	background-image: url(../img/bg-fondo.jpg) !important;
+}
+
+
+#main-container .bg-pasteles{
+	background-image: url(../img/bg-productos01.png) !important;
+}
+
+#main-container .bg-galletas{
+	background-image: url(../img/bg-productos02.png) !important;
+}
+
+#main-container .bg-chocoflan{
+	background-image: url(../img/bg-productos03.png) !important;
+}
+
+#main-container .bg-flan{
+	background-image: url(../img/bg-productos04.png) !important;
+}
+
+#main-container .bg-cakepop{
+	background-image: url(../img/bg-productos05.png) !important;
+}
+
+#main-container .bg-muffins{
+	background-image: url(../img/bg-productos06.png) !important;
+}
+
+#main-container #menu-productos{
+	text-align: left;
+}
+
+#main-container #menu-productos ul{
+	margin: 0;
+	padding: 0;
+}
+
+#main-container #menu-productos ul li{
+	display: block;
+	text-align: left;
+	margin-left: 200px;
+}
+
+#main-container #menu-productos a{
+	color: white;
+	text-decoration: none;
+}
+
+#main-container #menu-productos h2{
+	font-size: 40px;
+}
+
+#main-container #menu-productos h2 span::after{
+	background-color: #fff;
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 5px;
+	left: 243px;
+	margin-top: 60px;
+
+	transition: all 0.3s;
+}
+
+#main-container #menu-productos h2:hover span::after{
+	width: 290px;
+}
+
+#main-container .productos-titulo h1{
+	color: white;
+	font-size: 10em;
+	text-align: center;
+}
+
+#main-container .productos-content section{
+	height: 100vh;
+	background-color: red;
+	margin: 0;
+}
+
+#main-container .productos-content #pasteles01-content{
+	background-image: url(../img/bg-pastel01.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #pasteles02-content{
+	background-image: url(../img/bg-pastel02.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #pasteles03-content{
+	background-image: url(../img/bg-pastel03.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #pasteles04-content{
+	background-image: url(../img/bg-pastel04.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #pasteles05-content{
+	background-image: url(../img/bg-pastel05.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #pasteles06-content{
+	background-image: url(../img/bg-pastel06.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #pasteles07-content{
+	background-image: url(../img/bg-pastel07.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #pasteles08-content{
+	background-image: url(../img/bg-pastel08.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #pasteles09-content{
+	background-image: url(../img/bg-pastel09.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #pasteles10-content{
+	background-image: url(../img/bg-pastel10.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #galleta01-content{
+	background-image: url(../img/galletas01.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #galletas02-content{
+	background-image: url(../img/galletas02.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #galletas03-content{
+	background-image: url(../img/galletas03.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #galletas04-content{
+	background-image: url(../img/galletas04.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #galletas05-content{
+	background-image: url(../img/galletas05.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #galletas06-content{
+	background-image: url(../img/galletas06.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #galletas07-content{
+	background-image: url(../img/galletas07.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #galletas08-content{
+	background-image: url(../img/galletas08.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #galletas09-content{
+	background-image: url(../img/galletas09.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #cakepop01-content{
+	background-image: url(../img/cakepop01.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #cakepop02-content{
+	background-image: url(../img/cakepop02.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #cakepop03-content{
+	background-image: url(../img/cakepop03.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #cakepop04-content{
+	background-image: url(../img/cakepop04.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #cakepop05-content{
+	background-image: url(../img/cakepop05.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #cakepop06-content{
+	background-image: url(../img/cakepop06.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #cakepop07-content{
+	background-image: url(../img/cakepop07.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #cakepop08-content{
+	background-image: url(../img/cakepop08.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #cakepop09-content{
+	background-image: url(../img/cakepop09.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #cakepop10-content{
+	background-image: url(../img/cakepop10.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #muffins01-content{
+	background-image: url(../img/muffins01.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #muffins02-content{
+	background-image: url(../img/muffins02.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #muffins03-content{
+	background-image: url(../img/muffins03.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #muffins04-content{
+	background-image: url(../img/muffins04.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #muffins05-content{
+	background-image: url(../img/muffins05.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #muffins06-content{
+	background-image: url(../img/muffins06.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #muffins07-content{
+	background-image: url(../img/muffins07.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #muffins08-content{
+	background-image: url(../img/muffins08.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #muffins09-content{
+	background-image: url(../img/muffins09.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content #muffins10-content{
+	background-image: url(../img/muffins10.png);
+	background-size: 100vh;
+}
+
+#main-container .productos-content .description{
+	font-size: 1.5em;
+	color: white;
+	width: 700px;
+	text-align: center;
+	transition: all 1s;
+	padding-top: 100px;
+}
+
+#main-container .productos-content .description h2{
+	font-size: 10em;
+	margin: 0;
+}
+
+#main-container .productos-content .description h3{
+	font-size: 5em;
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+#main-container .productos-content .description p{
+	font-size: 1.2em;
+	font-style: italic;
+	margin: 0;
+}
+
+.aling-left{
+	opacity: 0;
+	margin-left: 10%;
+}
+
+.aling-center{
+	opacity: 0;
+	margin: 0 auto;
+}
+
+.aling-right{
+	opacity: 0;
+	margin-right: 10%;
+	margin-left: auto;
+}
+
+.aling-right h2{
+	font-size: 7em !important;
+}
+
+#main-container .productos-content section:hover .aling-left{
+	opacity: 1;
+}
+
+#main-container .productos-content section:hover .aling-right{
+	opacity: 1;
+}
+
+#main-container .productos-content section:hover .aling-center{
+	opacity: 1;
+}
